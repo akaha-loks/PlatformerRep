@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour
 {
     private Animator anim;
-
+    
     private void Awake()
     {
         anim = GetComponent<Animator>();

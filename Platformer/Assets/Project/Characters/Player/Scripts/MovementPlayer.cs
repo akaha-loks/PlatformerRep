@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MovementPlayer : MonoBehaviour
 {
-    [SerializeField] private float jumpForce;
+    public float jumpForce;
     private Rigidbody2D rb;
     
-    [SerializeField] private float speed;
+    public float speed;
     private bool lookingRight;
 
     [SerializeField] private Animator anim;
